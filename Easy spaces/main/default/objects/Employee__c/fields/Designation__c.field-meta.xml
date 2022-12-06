@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Designation__c</fullName>
+    <externalId>false</externalId>
+    <label>Designation</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Jr. Developer</fullName>
+                <default>false</default>
+                <label>Jr. Developer</label>
+            </value>
+            <value>
+                <fullName>Associate Software Engineer</fullName>
+                <default>false</default>
+                <label>Associate Software Engineer</label>
+            </value>
+            <value>
+                <fullName>Sr. Software Engineer</fullName>
+                <default>false</default>
+                <label>Sr. Software Engineer</label>
+            </value>
+            <value>
+                <fullName>Architect</fullName>
+                <default>false</default>
+                <label>Architect</label>
+            </value>
+            <value>
+                <fullName>Consultant</fullName>
+                <default>false</default>
+                <label>Consultant</label>
+            </value>
+            <value>
+                <fullName>HR</fullName>
+                <default>false</default>
+                <label>HR</label>
+            </value>
+            <value>
+                <fullName>Content Writer</fullName>
+                <default>false</default>
+                <label>Content Writer</label>
+            </value>
+            <value>
+                <fullName>Web Designer</fullName>
+                <default>false</default>
+                <label>Web Designer</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

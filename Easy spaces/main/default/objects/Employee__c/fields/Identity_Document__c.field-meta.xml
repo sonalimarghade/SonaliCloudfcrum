@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Identity_Document__c</fullName>
+    <description>Government Id proof of the employee</description>
+    <externalId>false</externalId>
+    <label>Identity Document</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Aadhar</fullName>
+                <default>false</default>
+                <label>Aadhar</label>
+            </value>
+            <value>
+                <fullName>Driving License</fullName>
+                <default>false</default>
+                <label>Driving License</label>
+            </value>
+            <value>
+                <fullName>Voter ID</fullName>
+                <default>false</default>
+                <label>Voter ID</label>
+            </value>
+            <value>
+                <fullName>SSN</fullName>
+                <default>false</default>
+                <label>SSN</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

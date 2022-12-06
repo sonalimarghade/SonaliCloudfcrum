@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Next_Level_Stages__c</fullName>
+    <externalId>false</externalId>
+    <label>Next Level Stages</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Status__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Screening Rejection</fullName>
+                <default>false</default>
+                <label>Screening Rejection</label>
+            </value>
+            <value>
+                <fullName>High CTC Expectation</fullName>
+                <default>false</default>
+                <label>High CTC Expectation</label>
+            </value>
+            <value>
+                <fullName>Location Constraint</fullName>
+                <default>false</default>
+                <label>Location Constraint</label>
+            </value>
+            <value>
+                <fullName>Interview Rejection</fullName>
+                <default>false</default>
+                <label>Interview Rejection</label>
+            </value>
+            <value>
+                <fullName>HR Rejection</fullName>
+                <default>false</default>
+                <label>HR Rejection</label>
+            </value>
+            <value>
+                <fullName>1st Level</fullName>
+                <default>false</default>
+                <label>1st Level</label>
+            </value>
+            <value>
+                <fullName>2nd Level</fullName>
+                <default>false</default>
+                <label>2nd Level</label>
+            </value>
+            <value>
+                <fullName>3rd Level</fullName>
+                <default>false</default>
+                <label>3rd Level</label>
+            </value>
+            <value>
+                <fullName>Recommend Offer</fullName>
+                <default>false</default>
+                <label>Recommend Offer</label>
+            </value>
+            <value>
+                <fullName>HR Round</fullName>
+                <default>false</default>
+                <label>HR Round</label>
+            </value>
+            <value>
+                <fullName>Joined</fullName>
+                <default>false</default>
+                <label>Joined</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Rejected</controllingFieldValue>
+            <valueName>Screening Rejection</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rejected</controllingFieldValue>
+            <valueName>High CTC Expectation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rejected</controllingFieldValue>
+            <valueName>Location Constraint</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rejected</controllingFieldValue>
+            <valueName>Interview Rejection</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rejected</controllingFieldValue>
+            <valueName>HR Rejection</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

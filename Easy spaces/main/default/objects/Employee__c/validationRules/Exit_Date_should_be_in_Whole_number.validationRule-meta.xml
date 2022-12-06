@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Exit_Date_should_be_in_Whole_number</fullName>
+    <active>true</active>
+    <description>Date of exit should not be less than date of joining</description>
+    <errorConditionFormula>Date_of_Exit__c  &lt;  Date_of_Joining__c</errorConditionFormula>
+    <errorMessage>Date of exit should not be less than date of joining</errorMessage>
+</ValidationRule>

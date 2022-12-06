@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>Job_Posting__c</columns>
+    <columns>NAME</columns>
+    <columns>Mobile__c</columns>
+    <columns>Email__c</columns>
+    <columns>Status__c</columns>
+    <columns>Comment_Box__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>NEW,Screening,1st Level Interview,2nd Level Interview,3rd Level Interview,On Hold,Rejected,HR Discussion,Recommend to Offer,Offered,Joined</value>
+    </filters>
+    <filters>
+        <field>Job_Posting__c</field>
+        <operation>contains</operation>
+        <value>GCP,managers,Developer</value>
+    </filters>
+    <label>All</label>
+</ListView>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <defaultValue>&quot;NEW&quot;</defaultValue>
+    <externalId>false</externalId>
+    <label>Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>NEW</fullName>
+                <default>true</default>
+                <label>NEW</label>
+            </value>
+            <value>
+                <fullName>Screening</fullName>
+                <default>false</default>
+                <label>Screening</label>
+            </value>
+            <value>
+                <fullName>1st Level Interview</fullName>
+                <default>false</default>
+                <label>1st Level Interview</label>
+            </value>
+            <value>
+                <fullName>2nd Level Interview</fullName>
+                <default>false</default>
+                <label>2nd Level Interview</label>
+            </value>
+            <value>
+                <fullName>3rd Level Interview</fullName>
+                <default>false</default>
+                <label>3rd Level Interview</label>
+            </value>
+            <value>
+                <fullName>On Hold</fullName>
+                <default>false</default>
+                <label>On Hold</label>
+            </value>
+            <value>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+                <label>Rejected</label>
+            </value>
+            <value>
+                <fullName>HR Discussion</fullName>
+                <default>false</default>
+                <label>HR Discussion</label>
+            </value>
+            <value>
+                <fullName>Recommend to Offer</fullName>
+                <default>false</default>
+                <label>Recommend to Offer</label>
+            </value>
+            <value>
+                <fullName>Offered</fullName>
+                <default>false</default>
+                <label>Offered</label>
+            </value>
+            <value>
+                <fullName>Joined</fullName>
+                <default>false</default>
+                <label>Joined</label>
+            </value>
+            <value>
+                <fullName>Move to Next Stage</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Move to Next Stage</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
